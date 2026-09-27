@@ -1,0 +1,66 @@
+2026-09-25 09:54:18,296 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 09:54:27,383 - INFO - Monitoring stopped.
+2026-09-25 09:55:03,911 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 09:55:06,409 - WARNING - ALERT [Critical] ICMP Flood from 192.0.2.44 -> 192.168.1.20: 50 ICMP packets from 192.0.2.44 within 5s (threshold 50).
+2026-09-25 09:55:07,408 - WARNING - ALERT [High] Repeated Connection Attempts from 203.0.113.7 -> 192.168.1.10: 20 connection attempts from 203.0.113.7 to 192.168.1.10 within 15s (threshold 20).
+2026-09-25 09:55:07,838 - WARNING - ALERT [Critical] TCP SYN Flood from 203.0.113.7 -> 192.168.1.10: 40 SYN packets from 203.0.113.7 within 5s (threshold 40).
+2026-09-25 09:55:08,230 - WARNING - ALERT [Medium] Suspicious Port Access from 203.0.113.7 -> 192.168.1.12: Connection attempt from 203.0.113.7 to 192.168.1.12 on commonly-abused port 23.
+2026-09-25 09:55:08,837 - WARNING - ALERT [High] Port Scan from 198.51.100.23 -> 192.168.1.20: 198.51.100.23 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 09:55:08,968 - WARNING - ALERT [High] Repeated Connection Attempts from 198.51.100.23 -> 192.168.1.20: 20 connection attempts from 198.51.100.23 to 192.168.1.20 within 15s (threshold 20).
+2026-09-25 09:55:22,779 - WARNING - ALERT [Critical] ICMP Flood from 203.0.113.99 -> 192.168.1.20: 50 ICMP packets from 203.0.113.99 within 5s (threshold 50).
+2026-09-25 09:55:24,510 - INFO - Monitoring stopped.
+2026-09-25 09:56:29,975 - INFO - Monitoring started on interface: default
+2026-09-25 09:56:30,743 - INFO - Monitoring stopped.
+2026-09-25 09:56:38,682 - ERROR - Network capture error: \Device\NPF_Loopback: You don't have permission to perform this capture on that device
+(The helper program for "Admin-only Mode" must be allowed to make changes to your device)
+2026-09-25 10:02:20,603 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 10:02:29,996 - INFO - Monitoring stopped.
+2026-09-25 10:02:44,448 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 10:02:46,326 - WARNING - ALERT [High] Port Scan from 192.0.2.44 -> 192.168.1.15: 192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 10:02:46,447 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.15: 20 connection attempts from 192.0.2.44 to 192.168.1.15 within 15s (threshold 20).
+2026-09-25 10:02:48,170 - WARNING - ALERT [Critical] ICMP Flood from 198.51.100.23 -> 192.168.1.20: 50 ICMP packets from 198.51.100.23 within 5s (threshold 50).
+2026-09-25 10:02:49,089 - WARNING - ALERT [High] Repeated Connection Attempts from 203.0.113.99 -> 192.168.1.34: 20 connection attempts from 203.0.113.99 to 192.168.1.34 within 15s (threshold 20).
+2026-09-25 10:02:49,521 - WARNING - ALERT [Critical] TCP SYN Flood from 203.0.113.99 -> 192.168.1.34: 40 SYN packets from 203.0.113.99 within 5s (threshold 40).
+2026-09-25 10:02:50,083 - WARNING - ALERT [Medium] Suspicious Port Access from 203.0.113.7 -> 192.168.1.15: Connection attempt from 203.0.113.7 to 192.168.1.15 on commonly-abused port 23.
+2026-09-25 10:02:50,869 - WARNING - ALERT [Medium] Suspicious Port Access from 198.51.100.23 -> 192.168.1.11: Connection attempt from 198.51.100.23 to 192.168.1.11 on commonly-abused port 3389.
+2026-09-25 10:03:02,131 - INFO - Monitoring stopped.
+2026-09-25 11:08:49,334 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 11:09:53,304 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 11:10:11,494 - WARNING - ALERT [High] Port Scan from 198.51.100.23 -> 192.168.1.11: 198.51.100.23 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:10:11,625 - WARNING - ALERT [High] Repeated Connection Attempts from 198.51.100.23 -> 192.168.1.11: 20 connection attempts from 198.51.100.23 to 192.168.1.11 within 15s (threshold 20).
+2026-09-25 11:10:13,681 - WARNING - ALERT [Critical] ICMP Flood from 192.0.2.44 -> 192.168.1.50: 50 ICMP packets from 192.0.2.44 within 5s (threshold 50).
+2026-09-25 11:10:14,734 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.50: 20 connection attempts from 192.0.2.44 to 192.168.1.50 within 15s (threshold 20).
+2026-09-25 11:10:15,192 - WARNING - ALERT [Critical] TCP SYN Flood from 192.0.2.44 -> 192.168.1.50: 40 SYN packets from 192.0.2.44 within 5s (threshold 40).
+2026-09-25 11:10:15,727 - WARNING - ALERT [Medium] Suspicious Port Access from 192.0.2.44 -> 192.168.1.34: Connection attempt from 192.0.2.44 to 192.168.1.34 on commonly-abused port 4444.
+2026-09-25 11:10:17,508 - WARNING - ALERT [High] Port Scan from 192.0.2.44 -> 192.168.1.15: 192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:10:38,661 - INFO - Monitoring stopped.
+2026-09-25 11:14:03,993 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 11:14:24,023 - WARNING - ALERT [Critical] ICMP Flood from 203.0.113.99 -> 192.168.1.11: 50 ICMP packets from 203.0.113.99 within 5s (threshold 50).
+2026-09-25 11:14:52,378 - WARNING - ALERT [High] Port Scan from 192.0.2.44 -> 192.168.1.34: 192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:14:52,491 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.34: 20 connection attempts from 192.0.2.44 to 192.168.1.34 within 15s (threshold 20).
+2026-09-25 11:15:49,400 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 11:16:05,590 - WARNING - ALERT [High] Port Scan from 203.0.113.7 -> 192.168.1.12: 203.0.113.7 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:16:05,875 - WARNING - ALERT [High] Repeated Connection Attempts from 203.0.113.7 -> 192.168.1.12: 20 connection attempts from 203.0.113.7 to 192.168.1.12 within 15s (threshold 20).
+2026-09-25 11:16:07,173 - WARNING - ALERT [Critical] ICMP Flood from 198.51.100.23 -> 192.168.1.10: 50 ICMP packets from 198.51.100.23 within 5s (threshold 50).
+2026-09-25 11:16:08,068 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.10: 20 connection attempts from 192.0.2.44 to 192.168.1.10 within 15s (threshold 20).
+2026-09-25 11:16:08,531 - WARNING - ALERT [Critical] TCP SYN Flood from 192.0.2.44 -> 192.168.1.10: 40 SYN packets from 192.0.2.44 within 5s (threshold 40).
+2026-09-25 11:16:09,027 - WARNING - ALERT [Medium] Suspicious Port Access from 198.51.100.23 -> 192.168.1.12: Connection attempt from 198.51.100.23 to 192.168.1.12 on commonly-abused port 3389.
+2026-09-25 11:16:14,377 - WARNING - ALERT [High] Port Scan from 203.0.113.99 -> 192.168.1.15: 203.0.113.99 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:16:14,493 - WARNING - ALERT [High] Repeated Connection Attempts from 203.0.113.99 -> 192.168.1.15: 20 connection attempts from 203.0.113.99 to 192.168.1.15 within 15s (threshold 20).
+2026-09-25 11:16:50,618 - WARNING - ALERT [High] Repeated Connection Attempts from 198.51.100.23 -> 192.168.1.11: 20 connection attempts from 198.51.100.23 to 192.168.1.11 within 15s (threshold 20).
+2026-09-25 11:16:51,068 - WARNING - ALERT [Critical] TCP SYN Flood from 198.51.100.23 -> 192.168.1.11: 40 SYN packets from 198.51.100.23 within 5s (threshold 40).
+2026-09-25 11:17:32,599 - WARNING - ALERT [Medium] Suspicious Port Access from 203.0.113.99 -> 192.168.1.15: Connection attempt from 203.0.113.99 to 192.168.1.15 on commonly-abused port 31337.
+2026-09-25 11:18:05,976 - WARNING - ALERT [High] Port Scan from 192.0.2.44 -> 192.168.1.20: 192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:18:06,099 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.20: 20 connection attempts from 192.0.2.44 to 192.168.1.20 within 15s (threshold 20).
+2026-09-25 11:18:49,142 - WARNING - ALERT [High] Port Scan from 192.0.2.44 -> 192.168.1.34: 192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:18:49,292 - WARNING - ALERT [High] Repeated Connection Attempts from 192.0.2.44 -> 192.168.1.34: 20 connection attempts from 192.0.2.44 to 192.168.1.34 within 15s (threshold 20).
+2026-09-25 11:19:34,284 - WARNING - ALERT [Medium] Suspicious Port Access from 203.0.113.99 -> 192.168.1.11: Connection attempt from 203.0.113.99 to 192.168.1.11 on commonly-abused port 23.
+2026-09-25 11:19:43,029 - INFO - Monitoring stopped.
+2026-09-25 11:22:41,422 - INFO - Monitoring started using the synthetic traffic simulator.
+2026-09-25 11:22:55,325 - WARNING - ALERT [High] Port Scan from 203.0.113.7 -> 192.168.1.15: 203.0.113.7 probed 15 distinct destination ports within 10s (threshold 15).
+2026-09-25 11:22:55,470 - WARNING - ALERT [High] Repeated Connection Attempts from 203.0.113.7 -> 192.168.1.15: 20 connection attempts from 203.0.113.7 to 192.168.1.15 within 15s (threshold 20).
+2026-09-25 11:22:56,920 - WARNING - ALERT [Critical] ICMP Flood from 203.0.113.7 -> 192.168.1.20: 50 ICMP packets from 203.0.113.7 within 5s (threshold 50).
+2026-09-25 11:22:57,840 - WARNING - ALERT [Critical] TCP SYN Flood from 203.0.113.7 -> 192.168.1.11: 40 SYN packets from 203.0.113.7 within 5s (threshold 40).
+2026-09-25 11:22:58,824 - WARNING - ALERT [Medium] Suspicious Port Access from 203.0.113.99 -> 192.168.1.10: Connection attempt from 203.0.113.99 to 192.168.1.10 on commonly-abused port 4444.
+2026-09-25 11:23:00,589 - WARNING - ALERT [Medium] High Packet Rate from 203.0.113.7 -> 192.168.1.34: 200 packets from 203.0.113.7 within 5s (threshold 200).
+2026-09-25 11:23:09,559 - INFO - Monitoring stopped.

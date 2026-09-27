@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-09-25 11:14:42",
+  "monitoring_duration_seconds": 38,
+  "total_packets": 328,
+  "total_bytes": 127348,
+  "total_alerts": 1,
+  "high_severity_alerts": 1,
+  "network_health_score": 92.0,
+  "unique_source_ips": 8,
+  "severity_breakdown": {
+    "Critical": 1
+  },
+  "attack_type_breakdown": {
+    "ICMP Flood": 1
+  },
+  "protocol_breakdown": {
+    "UDP": 75,
+    "TCP": 143,
+    "ICMP": 110
+  },
+  "top_talkers": [
+    {
+      "src_ip": "203.0.113.99",
+      "packets": 90
+    },
+    {
+      "src_ip": "192.168.1.50",
+      "packets": 41
+    },
+    {
+      "src_ip": "192.168.1.15",
+      "packets": 38
+    },
+    {
+      "src_ip": "192.168.1.11",
+      "packets": 35
+    },
+    {
+      "src_ip": "192.168.1.12",
+      "packets": 34
+    }
+  ]
+}

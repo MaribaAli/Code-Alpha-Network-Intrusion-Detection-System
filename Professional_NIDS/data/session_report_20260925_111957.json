@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-25 11:19:57",
+  "monitoring_duration_seconds": 247,
+  "total_packets": 1784,
+  "total_bytes": 739199,
+  "total_alerts": 16,
+  "high_severity_alerts": 13,
+  "network_health_score": 31.5,
+  "unique_source_ips": 11,
+  "severity_breakdown": {
+    "High": 10,
+    "Critical": 3,
+    "Medium": 3
+  },
+  "attack_type_breakdown": {
+    "Port Scan": 4,
+    "Repeated Connection Attempts": 6,
+    "ICMP Flood": 1,
+    "TCP SYN Flood": 2,
+    "Suspicious Port Access": 3
+  },
+  "protocol_breakdown": {
+    "TCP": 1038,
+    "ICMP": 302,
+    "UDP": 444
+  },
+  "top_talkers": [
+    {
+      "src_ip": "192.168.1.20",
+      "packets": 239
+    },
+    {
+      "src_ip": "192.168.1.34",
+      "packets": 237
+    },
+    {
+      "src_ip": "192.168.1.10",
+      "packets": 230
+    },
+    {
+      "src_ip": "192.168.1.15",
+      "packets": 215
+    },
+    {
+      "src_ip": "192.168.1.12",
+      "packets": 189
+    }
+  ]
+}

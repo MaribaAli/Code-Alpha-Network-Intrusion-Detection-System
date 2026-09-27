@@ -1,0 +1,462 @@
+[
+  {
+    "timestamp": 1790355306.4068604,
+    "datetime": "2026-09-25 09:55:06",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 192.0.2.44 within 5s (threshold 50).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790355307.3920686,
+    "datetime": "2026-09-25 09:55:07",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 203.0.113.7 to 192.168.1.10 within 15s (threshold 20).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790355307.8265903,
+    "datetime": "2026-09-25 09:55:07",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 203.0.113.7 within 5s (threshold 40).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790355308.2166264,
+    "datetime": "2026-09-25 09:55:08",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.12",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 203.0.113.7 to 192.168.1.12 on commonly-abused port 23.",
+    "id": 4
+  },
+  {
+    "timestamp": 1790355308.8140674,
+    "datetime": "2026-09-25 09:55:08",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "198.51.100.23 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 5
+  },
+  {
+    "timestamp": 1790355308.9525049,
+    "datetime": "2026-09-25 09:55:08",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 198.51.100.23 to 192.168.1.20 within 15s (threshold 20).",
+    "id": 6
+  },
+  {
+    "timestamp": 1790355322.7689528,
+    "datetime": "2026-09-25 09:55:22",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 203.0.113.99 within 5s (threshold 50).",
+    "id": 7
+  },
+  {
+    "timestamp": 1790355766.30499,
+    "datetime": "2026-09-25 10:02:46",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790355766.4349747,
+    "datetime": "2026-09-25 10:02:46",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.15 within 15s (threshold 20).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790355768.1610024,
+    "datetime": "2026-09-25 10:02:48",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 198.51.100.23 within 5s (threshold 50).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790355769.07729,
+    "datetime": "2026-09-25 10:02:49",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 203.0.113.99 to 192.168.1.34 within 15s (threshold 20).",
+    "id": 4
+  },
+  {
+    "timestamp": 1790355769.5070007,
+    "datetime": "2026-09-25 10:02:49",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 203.0.113.99 within 5s (threshold 40).",
+    "id": 5
+  },
+  {
+    "timestamp": 1790355770.0684965,
+    "datetime": "2026-09-25 10:02:50",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 203.0.113.7 to 192.168.1.15 on commonly-abused port 23.",
+    "id": 6
+  },
+  {
+    "timestamp": 1790355770.858326,
+    "datetime": "2026-09-25 10:02:50",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 198.51.100.23 to 192.168.1.11 on commonly-abused port 3389.",
+    "id": 7
+  },
+  {
+    "timestamp": 1790359811.4636214,
+    "datetime": "2026-09-25 11:10:11",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "198.51.100.23 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790359811.5979078,
+    "datetime": "2026-09-25 11:10:11",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 198.51.100.23 to 192.168.1.11 within 15s (threshold 20).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790359813.643003,
+    "datetime": "2026-09-25 11:10:13",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.50",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 192.0.2.44 within 5s (threshold 50).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790359814.7073953,
+    "datetime": "2026-09-25 11:10:14",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.50",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.50 within 15s (threshold 20).",
+    "id": 4
+  },
+  {
+    "timestamp": 1790359815.1493077,
+    "datetime": "2026-09-25 11:10:15",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.50",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 192.0.2.44 within 5s (threshold 40).",
+    "id": 5
+  },
+  {
+    "timestamp": 1790359815.692805,
+    "datetime": "2026-09-25 11:10:15",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 192.0.2.44 to 192.168.1.34 on commonly-abused port 4444.",
+    "id": 6
+  },
+  {
+    "timestamp": 1790359817.4943483,
+    "datetime": "2026-09-25 11:10:17",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 7
+  },
+  {
+    "timestamp": 1790360063.9873009,
+    "datetime": "2026-09-25 11:14:23",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 203.0.113.99 within 5s (threshold 50).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790360092.3473947,
+    "datetime": "2026-09-25 11:14:52",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790360092.4807594,
+    "datetime": "2026-09-25 11:14:52",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.34 within 15s (threshold 20).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790360165.5542724,
+    "datetime": "2026-09-25 11:16:05",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.12",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "203.0.113.7 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790360165.6951876,
+    "datetime": "2026-09-25 11:16:05",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.12",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 203.0.113.7 to 192.168.1.12 within 15s (threshold 20).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790360167.1395066,
+    "datetime": "2026-09-25 11:16:07",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 198.51.100.23 within 5s (threshold 50).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790360168.0416427,
+    "datetime": "2026-09-25 11:16:08",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.10 within 15s (threshold 20).",
+    "id": 4
+  },
+  {
+    "timestamp": 1790360168.513914,
+    "datetime": "2026-09-25 11:16:08",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 192.0.2.44 within 5s (threshold 40).",
+    "id": 5
+  },
+  {
+    "timestamp": 1790360168.9885118,
+    "datetime": "2026-09-25 11:16:08",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.12",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 198.51.100.23 to 192.168.1.12 on commonly-abused port 3389.",
+    "id": 6
+  },
+  {
+    "timestamp": 1790360174.335009,
+    "datetime": "2026-09-25 11:16:14",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "203.0.113.99 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 7
+  },
+  {
+    "timestamp": 1790360174.4817145,
+    "datetime": "2026-09-25 11:16:14",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 203.0.113.99 to 192.168.1.15 within 15s (threshold 20).",
+    "id": 8
+  },
+  {
+    "timestamp": 1790360210.5736818,
+    "datetime": "2026-09-25 11:16:50",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 198.51.100.23 to 192.168.1.11 within 15s (threshold 20).",
+    "id": 9
+  },
+  {
+    "timestamp": 1790360211.0331812,
+    "datetime": "2026-09-25 11:16:51",
+    "src_ip": "198.51.100.23",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 198.51.100.23 within 5s (threshold 40).",
+    "id": 10
+  },
+  {
+    "timestamp": 1790360252.5147846,
+    "datetime": "2026-09-25 11:17:32",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 203.0.113.99 to 192.168.1.15 on commonly-abused port 31337.",
+    "id": 11
+  },
+  {
+    "timestamp": 1790360285.9552848,
+    "datetime": "2026-09-25 11:18:05",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 12
+  },
+  {
+    "timestamp": 1790360286.080967,
+    "datetime": "2026-09-25 11:18:06",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.20 within 15s (threshold 20).",
+    "id": 13
+  },
+  {
+    "timestamp": 1790360329.1091335,
+    "datetime": "2026-09-25 11:18:49",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "192.0.2.44 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 14
+  },
+  {
+    "timestamp": 1790360329.245636,
+    "datetime": "2026-09-25 11:18:49",
+    "src_ip": "192.0.2.44",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 192.0.2.44 to 192.168.1.34 within 15s (threshold 20).",
+    "id": 15
+  },
+  {
+    "timestamp": 1790360374.247377,
+    "datetime": "2026-09-25 11:19:34",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 203.0.113.99 to 192.168.1.11 on commonly-abused port 23.",
+    "id": 16
+  },
+  {
+    "timestamp": 1790360575.2771218,
+    "datetime": "2026-09-25 11:22:55",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Port Scan",
+    "severity": "High",
+    "reason": "203.0.113.7 probed 15 distinct destination ports within 10s (threshold 15).",
+    "id": 1
+  },
+  {
+    "timestamp": 1790360575.4278882,
+    "datetime": "2026-09-25 11:22:55",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.15",
+    "attack_type": "Repeated Connection Attempts",
+    "severity": "High",
+    "reason": "20 connection attempts from 203.0.113.7 to 192.168.1.15 within 15s (threshold 20).",
+    "id": 2
+  },
+  {
+    "timestamp": 1790360576.8727376,
+    "datetime": "2026-09-25 11:22:56",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.20",
+    "attack_type": "ICMP Flood",
+    "severity": "Critical",
+    "reason": "50 ICMP packets from 203.0.113.7 within 5s (threshold 50).",
+    "id": 3
+  },
+  {
+    "timestamp": 1790360577.7900841,
+    "datetime": "2026-09-25 11:22:57",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.11",
+    "attack_type": "TCP SYN Flood",
+    "severity": "Critical",
+    "reason": "40 SYN packets from 203.0.113.7 within 5s (threshold 40).",
+    "id": 4
+  },
+  {
+    "timestamp": 1790360578.7732363,
+    "datetime": "2026-09-25 11:22:58",
+    "src_ip": "203.0.113.99",
+    "dst_ip": "192.168.1.10",
+    "attack_type": "Suspicious Port Access",
+    "severity": "Medium",
+    "reason": "Connection attempt from 203.0.113.99 to 192.168.1.10 on commonly-abused port 4444.",
+    "id": 5
+  },
+  {
+    "timestamp": 1790360580.5528576,
+    "datetime": "2026-09-25 11:23:00",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "192.168.1.34",
+    "attack_type": "High Packet Rate",
+    "severity": "Medium",
+    "reason": "200 packets from 203.0.113.7 within 5s (threshold 200).",
+    "id": 6
+  }
+]

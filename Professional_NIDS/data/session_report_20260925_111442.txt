@@ -1,0 +1,21 @@
+PROFESSIONAL NIDS - SESSION REPORT
+Generated: 2026-09-25 11:14:42
+Monitoring duration: 38s
+
+Total Packets: 328
+Data Captured: 124.4 KB
+Total Alerts: 1
+High/Critical Alerts: 1
+Network Health Score: 92.0/100
+Unique Source IPs: 8
+
+Severity Breakdown: {'Critical': 1}
+Attack Type Breakdown: {'ICMP Flood': 1}
+Protocol Breakdown: {'UDP': 75, 'TCP': 143, 'ICMP': 110}
+
+Top Talkers:
+  - 203.0.113.99: 90 packets
+  - 192.168.1.50: 41 packets
+  - 192.168.1.15: 38 packets
+  - 192.168.1.11: 35 packets
+  - 192.168.1.12: 34 packets

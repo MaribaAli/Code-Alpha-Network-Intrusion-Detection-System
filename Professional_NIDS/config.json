@@ -1,0 +1,39 @@
+{
+  "log_dir": "logs",
+  "data_dir": "data",
+  "enable_blocking": false,
+  "sound_alerts": false,
+  "simulation_mode": true,
+  "accent_color": "Teal",
+  "theme": "Dark",
+  "alert_dedup_seconds": 30,
+  "trusted_ips": [],
+
+  "port_scan": {
+    "port_threshold": 15,
+    "time_window_seconds": 10
+  },
+  "icmp_flood": {
+    "packet_threshold": 50,
+    "time_window_seconds": 5
+  },
+  "syn_flood": {
+    "packet_threshold": 40,
+    "time_window_seconds": 5
+  },
+  "high_packet_rate": {
+    "packet_threshold": 200,
+    "time_window_seconds": 5
+  },
+  "repeated_connection": {
+    "attempt_threshold": 20,
+    "time_window_seconds": 15
+  },
+  "suspicious_ports": [23, 135, 445, 1337, 3389, 4444, 5555, 6667, 31337],
+
+  "gui": {
+    "refresh_interval_ms": 200,
+    "chart_refresh_ms": 1500,
+    "max_packets_displayed": 500
+  }
+}
